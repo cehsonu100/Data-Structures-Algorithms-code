@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 
-class Graph:
+class UndirectedGraph:
 
     def __init__(self):
         self.graph = defaultdict(list)
@@ -45,7 +45,7 @@ class Graph:
 
 
 if __name__ == "__main__":
-    graph = Graph()
+    graph = UndirectedGraph()
     graph.add_edge('Bangalore', 'Hyderabad')
     graph.add_edge('Bangalore', 'New York')
     graph.add_edge('Delhi', 'Kota')

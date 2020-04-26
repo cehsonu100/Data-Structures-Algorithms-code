@@ -1,5 +1,5 @@
 # Graph class
-# Java code https://github.com/mission-peace/interview/blob/master/src/com/interview/graph/Graph.java
+# Reference Tushar Roy video lecture
 
 class Graph(object):
 

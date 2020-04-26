@@ -1,4 +1,4 @@
-from Representation.graph_using_defualtdic import Graph
+from Representation.undirectedGraph import UndirectedGraph
 
 
 # def get_path(graph, source, destination, path, visited):
@@ -18,7 +18,7 @@ def find_path(graph, start, end, path=[]):
             return None
 
 
-graph = Graph()
+graph = UndirectedGraph()
 graph.add_edge('Bangalore', 'Hyderabad')
 graph.add_edge('Bangalore', 'New York')
 graph.add_edge('Delhi', 'Kota')
